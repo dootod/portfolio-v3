@@ -212,7 +212,7 @@ body {
 /* Section Hero */
 .hero {
     height: 100vh;
-    background: url('../images/hero-bg.jpg') no-repeat center center;
+    background: url('../images/fond-1.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     overflow: hidden;
