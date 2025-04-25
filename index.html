@@ -11,31 +11,99 @@
     <header>
         <nav class="navbar">
             <div class="navbar-container">
-                <a href="#" class="navbar-logo">Portfolio</a>
-                
+                <a href="#" class="navbar-logo">Portfolio.</a>
                 <div class="navbar-toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-                
                 <ul class="navbar-menu">
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link active" data-text="Accueil">Accueil</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link" data-text="Compétences">Compétences</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link" data-text="Projets">Projets</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link" data-text="Contact">Contact</a>
-                    </li>
+                    <li class="navbar-item"><a href="#" class="navbar-link active" data-text="Accueil">Accueil</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link" data-text="Compétences">Compétences</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link" data-text="Projets">Projets</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link" data-text="Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <main>
+        <!-- Section Hero avec parallax -->
+        <section class="hero" id="parallax-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+                <p class="hero-subtitle">Développeur passionné • Étudiant motivé</p>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <!-- Section Présentation -->
+        <section class="presentation">
+            <div class="presentation-container">
+                <div class="profile-img-container">
+                    <div class="profile-img-wrapper">
+                        <img src="images/your-photo.jpg" alt="Votre photo" class="profile-img">
+                        <div class="img-border-effect"></div>
+                    </div>
+                </div>
+                <div class="profile-text">
+                    <h2 class="section-title">Bonjour, Je suis <span class="highlight">[Ton Prénom]</span></h2>
+                    <div class="text-scroll">
+                        <p>Développeur avec une passion pour créer des solutions innovantes. Mon parcours en BTS m'a doté de solides compétences techniques et d'une approche méthodique.</p>
+                        <p>Spécialisé en [tes spécialités], j'aime repousser les limites du possible. Mon portfolio reflète ma diversité de projets et mon engagement envers l'excellence.</p>
+                        <div class="signature">[Ton Prénom]</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section CTA -->
+        <section class="cta-section">
+            <div class="cta-bg"></div>
+            <div class="cta-content">
+                <h2>Prêt à découvrir mon travail ?</h2>
+                <a href="#" class="cta-button">
+                    Voir mes projets
+                    <span class="button-hover-effect"></span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">Portfolio.</a>
+            </div>
+            <div class="footer-links">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Réseaux</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Thomas Dumont. Tous droits réservés.</p>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
