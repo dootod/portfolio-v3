@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="../index.html" class="navbar-logo">Portfolio.</a>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="../index.html" class="navbar-link" data-text="Accueil">Accueil</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link" data-text="Compétences">Compétences</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link" data-text="Projets">Projets</a></li>
+                    <li class="navbar-item"><a href="contact.html" class="navbar-link active" data-text="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Contact Futuriste -->
+        <section class="contact-section">
+            <div class="cyber-grid">
+                <div class="grid-line vertical left"></div>
+                <div class="grid-line vertical right"></div>
+                <div class="grid-line horizontal top"></div>
+                <div class="grid-line horizontal bottom"></div>
+                
+                <h2 class="section-title glitch" data-text="Contact">Contact</h2>
+                
+                <div class="contact-container">
+                    <!-- Formulaire Holographique -->
+                    <form class="holographic-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Nom</label>
+                            <div class="input-highlight"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                            <div class="input-highlight"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                            <div class="input-highlight"></div>
+                        </div>
+                        
+                        <button type="submit" class="cyber-button">
+                            Envoyer
+                            <span class="button-lights">
+                                <span class="light red"></span>
+                                <span class="light yellow"></span>
+                                <span class="light green"></span>
+                            </span>
+                        </button>
+                    </form>
+                    
+                    <!-- Infos Contact -->
+                    <div class="contact-infos">
+                        <div class="info-card">
+                            <div class="card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>thomas.dumont1806@gmail.com</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <h3>Téléphone</h3>
+                            <p>+33 7 54 38 73 86</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Localisation</h3>
+                            <p>Cholet, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section CV Interactive -->
+        <section class="cv-section">
+            <div class="cv-container">
+                <h2 class="section-title">Mon <span class="highlight">CV</span></h2>
+                
+                <div class="cv-download">
+                    <div class="neon-disk">
+                        <div class="disk-inner">
+                            <div class="disk-hole"></div>
+                            <div class="disk-label">CV</div>
+                        </div>
+                    </div>
+                    <a href="../docs/cv.pdf" download class="download-button">
+                        Télécharger
+                        <i class="fas fa-cloud-download-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <div class="timeline-content">
+                            <h3>Première année de BTS SIO (Option SLAM)</h3>
+                            <p>Étudiant en première année de BTS SIO, option SLAM (développement d'applications).</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3>Baccalauréat professionnel SN (Option SSIHT)</h3>
+                            <p>Bac pro SN obtenu avec mention Bien au lycée Robert-Garnier.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">Portfolio.</a>
+            </div>
+            <div class="footer-links">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Réseaux</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Thomas Dumont. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>
